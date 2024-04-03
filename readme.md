@@ -15,6 +15,14 @@ ORM - Sqlalchemy
 * ``` python main.py ```
 * ``` localhost:8000/docs ``` for API testing with swagger integration.
 
+ ## API Routers:
+* `POST /user/signup` signup router
+* `POST /user/login` login router
+* `POST /movie/` add new movie
+* `GET /movie/` get all movies
+* `POST /rating/` add new rating
+* `GET /movie/search?name=movie_name` search movie by name
+
 ## c. Assumptions:
 * Assuming user has to be logged in to perform operations of Movies and Ratings.
 * Assuming user can search movies by name with exact match.
