@@ -15,7 +15,7 @@
 * ``` python main.py ```
 * ``` localhost:8000/docs ``` for API testing with swagger integration.
 
- ## API Routers:
+ ## REST API Endpoints:
 * `POST /user/signup` signup router
 * `POST /user/login` login router
 * `POST /movie/` add new movie
