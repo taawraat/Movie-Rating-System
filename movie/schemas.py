@@ -9,7 +9,7 @@ class MovieBase(BaseModel):
     release_date: str
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class CreateMovie(MovieBase):
@@ -22,7 +22,7 @@ class CreateMovie(MovieBase):
         return v
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class GetMovies(BaseModel):
@@ -41,4 +41,4 @@ class GetMovies(BaseModel):
         return v
 
     class Config:
-        orm_mode = True
+        from_attributes = True
