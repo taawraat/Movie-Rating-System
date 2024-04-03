@@ -13,7 +13,7 @@
  
 * ``` pip install -r requirements.txt ```
 * ``` python main.py ```
-* ``` (localhost:8000/docs) ``` for API testing with swagger integration.
+* ``` (http://localhost:8000/docs) ``` for API testing with swagger integration.
 
  ## REST API Endpoints:
 * `POST /user/signup` signup router
