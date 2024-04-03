@@ -1,4 +1,5 @@
 SQLAlchemy
+sqlalchemy_utils
 fastapi
 uvicorn
 starlette
