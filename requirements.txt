@@ -7,6 +7,6 @@ pydantic
 passlib
 python-multipart
 requests
-psycopg2
+psycopg2-binary
 pydantic[email]
 python-jose[cryptography]
