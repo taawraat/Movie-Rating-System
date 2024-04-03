@@ -24,6 +24,7 @@ ORM - Sqlalchemy
 * `GET /movie/search?name=movie_name` search movie by name
 
 ## c. Assumptions:
+* Assuming `"rating:"` field in Ratings JSON would be `"rating"` without semicolon.
 * Assuming user has to be logged in to perform operations of Movies and Ratings.
 * Assuming user can search movies by name with exact match.
 
