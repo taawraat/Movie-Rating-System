@@ -1,6 +1,6 @@
 import uvicorn
-from fastapi import FastAPI, Depends
-from database import get_db, init_db
+from fastapi import FastAPI
+from database import init_db
 
 from movie.routes import router as movie_router
 from user.routers import router as user_router
@@ -17,6 +17,11 @@ app.include_router(auth_router)
 app.include_router(user_router)
 app.include_router(movie_router)
 app.include_router(rating_router)
+
+
+@app.get("/", tags=["root"])
+async def root():
+    return {"message": "Hello World!"}
 
 
 def start():
