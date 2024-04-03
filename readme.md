@@ -2,11 +2,11 @@
 # Movie Rating System
 
 ## a. Language & framework
-Framework - Python (FastAPI)
+* Framework - Python (FastAPI)
 
-Database - Postgresql Cloud 
+* Database - Postgresql Cloud 
 
-ORM - Sqlalchemy
+* ORM - Sqlalchemy
 
 ## b. Setup Instructions:
 
