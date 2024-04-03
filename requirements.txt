@@ -1,0 +1,10 @@
+SQLAlchemy
+fastapi
+uvicorn
+starlette
+pydantic
+passlib
+python-multipart
+requests
+pydantic[email]
+python-jose[cryptography]
