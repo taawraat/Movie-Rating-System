@@ -28,8 +28,6 @@
 * Assuming user has to be logged in to perform operations of Movies and Ratings.
 * Assuming user can search movies by name with exact match.
 
-## No incomplete parts
-
 ## Notes and Details About project
 * JWT token authentication is implemented for authorization.
 * Tried to follow `Modular Design Pattern`
