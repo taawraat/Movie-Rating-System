@@ -1,14 +1,14 @@
 
 # Movie Rating System
 
-## a. Language & framework
+## Language & framework
 * Framework - Python (FastAPI)
 
 * Database - Postgresql Cloud 
 
 * ORM - Sqlalchemy
 
-## b. Setup Instructions:
+## Setup Instructions:
 
  
 * ``` pip install -r requirements.txt ```
@@ -23,16 +23,14 @@
 * `POST /rating/` add new rating
 * `GET /movie/search?name=movie_name` search movie by name
 
-## c. Assumptions:
+## Assumptions:
 * Assuming `"rating:"` field in Ratings JSON would be `"rating"` without semicolon.
 * Assuming user has to be logged in to perform operations of Movies and Ratings.
 * Assuming user can search movies by name with exact match.
 
-## d. Solved The whole part of assignment
+## No incomplete parts
 
-## e. No incomplete parts
-
-## f. Notes and Details About project
+## Notes and Details About project
 * JWT token authentication is implemented for authorization.
 * Tried to follow `Modular Design Pattern`
 * Business logic separated to `services` file
